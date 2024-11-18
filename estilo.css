@@ -1,0 +1,271 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+/*Este es el codigo css del menu*/
+body{
+	font-family: Lucida Bright;
+	background: white;
+}
+.menu{
+	text-align:left;
+	list-style: none;
+	background: #092327;
+	width: 100%;
+	margin: auto;
+}
+.menu li a{
+	text-decoration: none;
+	color: white;
+	padding: 20px;
+	display: block;
+}
+.menu li{
+	display: inline-block;
+
+}
+.menu li a:hover{
+	background: white;
+	color: black;
+}
+.menu li a .titulo:hover{
+	background: white;
+	color: black;
+}
+.titulo{
+	font-family:  Lucida Bright;
+	text-align: center;
+	font-size: 50px;
+	width: 100%;
+}
+.cinicion{
+	font-family:  Lucida Bright;
+	background: white;
+	text-align: center;
+	font-size: 50px;
+	width: 600px;
+	height: 75px;
+	color: red;
+	border-radius: 30px;
+	border: 2px solid black
+}
+.cinicioq{
+	font-family:  Lucida Bright;
+	background: white;
+	text-align: center;
+	font-size: 40px;
+	width: 675px;
+	height: 55px;
+	color: mediumpurple;
+	border-radius: 30px;
+	border: 2px solid black
+}
+.ciniciont{
+	font-family:  Lucida Bright;
+	background: white;
+	text-align: center;
+	font-size: 30px;
+	width: 600px;
+	color: red;
+	border-radius: 30px;
+	border: 2px solid black
+}
+.ciniciop{
+	font-family:  Lucida Bright;
+	background: white;
+	text-align: center;
+	font-size: 50px;
+	width: 600px;
+	height: 75px;
+	color: darkblue;
+	border-radius: 30px;
+	border: 2px solid black
+}
+.ciniciopt{
+	font-family:  Lucida Bright;
+	background: white;
+	text-align: center;
+	font-size: 30px;
+	width: 600px;
+	color: darkblue;
+	border-radius: 30px;
+	border: 2px solid black
+}
+
+.ciniciox{
+	font-family:  Lucida Bright;
+	background: white;
+	text-align: center;
+	font-size: 50px;
+	width: 600px;
+	height: 75px;
+	color: green;
+	border-radius: 30px;
+	border: 2px solid black
+}
+.cinicioxt{
+	font-family:  Lucida Bright;
+	background: white;
+	text-align: center;
+	font-size: 30px;
+	width: 600px;
+	color: green;
+	border-radius: 30px;
+	border: 2px solid black
+}
+
+
+/*pequeño hover*/
+.zoom .cinicio{
+  transition: transform .2s; /* Animation */
+	margin: 0 auto;
+
+}
+
+.zoom:hover .cinicio {
+  transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+.contenedor{
+	width: 420px;
+	height: 150px;
+	background: black;
+	padding: 0;
+	margin: auto;
+	margin-top: 10px;
+	border-radius: 6px;
+	font-family: 'calibri';
+	color: white;
+	border: 2px solid white;
+	text-align: center;
+	font-size: 30px;
+}
+.zoom .contenedor{
+	transition: transform .3s; 
+	margin: 0 auto;
+}
+.zoom:hover .contenedor{
+	transition: transform .3s; 
+	transform: scale(1.4);
+}
+.pie{
+	border: 1px solid black;
+	font-family:  Lucida Bright;
+	background: #092327;
+	text-align: center;
+	font-size: 30px;
+	width: 100%;
+	height: 100px;
+	color: white;
+}
+
+
+.contenedorproducto{
+	align-items: center;
+	border: 1px solid gray;
+	background: white;
+	text-align: center;
+	width: 200px;
+	height: 150px;
+	display: inline-table;
+	margin: 0 42px auto;
+	cursor: pointer;
+	max-width: 200px;
+	max-height: 150px;
+	border-radius: 6px;
+}
+.contenedorproducto img {
+	margin: 10% 10% 10%;
+	max-width: 80%;
+	max-height: 80%;
+
+}
+.contenedorproducto img p{
+	font-size: 50px;
+	text-align: center;
+	font-size: 20PX;
+	font-family: helvetica;
+}
+
+.info{
+	width: 80%px;
+	height: 150px;
+	background: black;
+	padding: 0;
+	margin: auto;
+	margin-top: 10px;
+	border-radius: 6px;
+	font-family: 'calibri';
+	color: white;
+	border: 2px solid white;
+	text-align: center;
+	font-size: 30px;
+}
+
+.centrado{
+	background: white;
+	padding: 0;
+	margin: auto;
+	margin-top: 10px;
+	font-family: 'calibri';
+	text-align: center;
+	font-size: 30px;
+}
+.centradot{
+	width: 100%
+	padding: 0;
+	text-align: center;
+}
+
+.contenedorproductoc{
+	align-items: center;
+	text-align: center;
+	width: 280px;
+	height: 175px;
+	display: inline-table;
+	margin: 10px 42px auto;
+	cursor: pointer;
+	max-width: 300px;
+	max-height: 175px;
+	background: white;
+}
+.contenedorproductoc img {
+	margin: 10% 10% 10%;
+	max-width: 80%;
+	max-height: 80%;
+
+}
+.contenedorproductos{
+	align-items: center;
+	text-align: center;
+	width: 200px;
+	height: 150px;
+	display: inline-table;
+	margin: 10px 42px auto;
+	cursor: pointer;
+	max-width: 200px;
+	max-height: 150px;
+}
+.contenedorproductos img {
+	margin: 10% 10% 10%;
+	max-width: 80%;
+	max-height: 80%;
+
+}
+.contenedorproductot{
+	align-items: center;
+	text-align: center;
+	width: 400px;
+	display: inline-table;
+	margin: 10px 42px auto;
+	max-width: 400px;
+	max-height: 150px;
+}
+
+.zoom img{
+  transition: transform .2s; /* Animation */
+	margin: 0 auto;
+}
+.zoom:hover img{
+	transform: scale(1.1);
+}
