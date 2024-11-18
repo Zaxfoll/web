@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+ <html>
+ <head>
+ 	<meta charset="utf-8">
+ 	<title></title>
+ 	<link rel="stylesheet" type="text/css" href="style.css">
+ </head>
+ <!--Formulario para añadir un registro nuevo-->
+ <body>
+ 	<h1>Registre un nuevo libro</h1>
+ 	
+ 	<div>
+ 	<!--Los tipos de inputs son distintos dependiendo del dato que se pida-->	
+ 	<form action='agregar.php' method="POST">
+ 	
+ 		Titulo:
+ 		<input type="text" name="TITULO"><br><br>
+ 		Editorial:
+ 		<input type="text" name="EDITORIAL" value="Fondo de Cultura Económica"><br><br>
+ 		Pais de origen:
+ 		<input type="text" name="PAIS_ORIGEN" value="México"><br><br>
+ 		Año de edicion:
+ 		<input type="year" name="AÑO_EDICION"><br><br>
+ 		Genero:
+ 		<input type="text" name="GENERO" value="Novela"><br><br>
+		<input type="submit" name="" value="Confirmar"><br><br>
+ 	</form>
+ </div>
+</body>
+</html>
